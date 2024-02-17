@@ -1,0 +1,207 @@
+p {
+    margin: 0;
+}
+
+/*container */
+.container-21 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 351px;
+}
+
+/*group 17*/
+.group-17 {
+    width: 1050px;
+}
+
+.group_p_1 {
+    font-family: "Work Sans";
+    color: #fff;
+    font-size: 51px;
+    line-height: 110%;
+}
+
+.group_p_2 {
+    font-family: "Work Sans";
+    color: #fff;
+    font-size: 22px;
+    line-height: 160%;
+    margin-top: 10px;
+}
+
+/*search input*/
+.search-input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    background: transparent;
+    padding: 0px 20px;
+    outline: none;
+    margin-top: 30px;
+    background-image: url(galery/MagnifyingGlass.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    font-family: "Work Sans";
+    font-size: 16px;
+}
+
+/*container 22*/
+.container-22 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3B3B3B;
+    height: 2176px;
+}
+
+/*group 18*/
+.group-18 {
+    display: flex;
+    justify-content: center;
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #3B3B3B;
+}
+
+/*tab 1*/
+.tab-1 {
+    width: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+
+.tab-1-a-1 {
+    font-family: "Work Sans";
+    font-size: 22px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.tab-1-a-2 {
+    font-family: "Work Sans";
+    font-size: 22px;
+    line-height: 140%;
+    color: #858584;
+}
+
+.background-number {
+    width: 50px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #858584;
+    border-radius: 20px;
+}
+
+.background-number,
+.background-number-2>p {
+    font-family: "Space Mono";
+    font-size: 16px;
+    color: #fff;
+}
+
+.background-number-2 {
+    width: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #858584;
+    position: absolute;
+    bottom: 0;
+}
+
+/*group 19, group 20,*/
+.group-19,
+.group-20 {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.group-20 {
+    margin-top: 30px;
+}
+
+/*nft card*/
+.nft-card {
+    background-color: #2B2B2B !important;
+}
+
+/*background 2*/
+.background-3 {
+    margin-top: 2px;
+    width: 100%;
+    height: 334px;
+    background: var(--Background---Secondary, #3B3B3B);
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*group 17*/
+    .group-17 {
+        width: 315px !important;
+    }
+
+    .group_p_1 {
+        font-size: 28px !important;
+        line-height: 140% !important;
+    }
+
+    .group_p_2 {
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    /*search input*/
+    .search-input {
+        background-position: 96% 50% !important;
+    }
+
+    /*container 22*/
+    .container-22 {
+        height: 2280px !important;
+    }
+
+    /*tab 1*/
+    .tab-1 {
+        width: 157.5px !important;
+    }
+
+    .background-number,
+    .background-number-2 {
+        display: none;
+    }
+
+    .quaeri-none {
+        display: none !important;
+    }
+
+    /*group 19, group 20*/
+    .group-19,
+    .group-20 {
+        flex-direction: column !important;
+        width: 315px !important;
+    }
+
+    /*background 3*/
+    .background-3 {
+        height: 800px !important;
+
+    }
+}
